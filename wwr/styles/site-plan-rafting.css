@@ -11,10 +11,10 @@
    
    --heading-font: 'Madimi One', serif;
    --paragraphy-font: 'Roboto', serif;
-   --nav-backgroud-color: #xxxxxx;
-   --nav-link-color: #xxxxxx;
-   --nav-haver-link-color: #xxxxxx;
-   --nav-haver-background-color: #xxxxxx;
+   --nav-backgroud-color: #99ceff;
+   --nav-link-color: #fef6f5;
+   --nav-haver-link-color: #f20602;
+   --nav-haver-background-color: #ffc5c2;
 }
 body {
    font-family: var(--paragraphy font);
