@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url(https://coolors.co/99ceff-f4f6f5-dfced5-f20602-ffc5c2);
 
 
 
@@ -57,3 +57,5 @@ nav a :hover{
    color: var(--nav-link-color);
    background-color: var(--nav-hover-background-color);
 }
+
+/*  this is a header selectors, universal *{ , class .h { , types h2{ id #{ */

@@ -1,0 +1,46 @@
+@import url(https://coolors.co/99ceff-f4f6f5-dfced5-f20602-ffc5c2);
+
+*{
+    background-color: #e9ecee;
+    padding: auto;
+    margin: 20px;
+}
+:root {
+   
+    --primary-color : #00203d;
+    --secondary-color: #708d81;
+    --accent1-color: #eee5e9;
+    --accent2-color: #bf0603;
+    
+    --heading-font: 'Madimi One', serif;
+    --paragraphy-font: 'Roboto', serif;
+    --nav-backgroud-color: #99ceff;
+    --nav-link-color: #fef6f5;
+    --nav-haver-link-color: #f20602;
+    --nav-haver-background-color: #ffc5c2;
+ }
+ header {
+    padding: 20px;
+    background-color: #2871b4;
+ }
+
+ p {
+    padding: 25px;
+    font: #99ceff;
+    
+ }
+
+ hero{
+    display: block ;
+    width: 100px;;
+    height:auto ;
+ }
+
+ body {
+    font-size: 16px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+ }
+
+ 
+
+    
