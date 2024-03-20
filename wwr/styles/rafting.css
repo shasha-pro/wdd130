@@ -1,42 +1,42 @@
 @import url(https://coolors.co/99ceff-f4f6f5-dfced5-f20602-ffc5c2);
 
-*{
-    background-color: #e9ecee;
-    padding: auto;
-    margin: 20px;
+* {
+   background-color: #e9ecee;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
 }
+
 :root {
-   
-    --primary-color : #00203d;
-    --secondary-color: #708d81;
-    --accent1-color: #eee5e9;
-    --accent2-color: #bf0603;
-    
-    --heading-font: 'Madimi One', serif;
-    --paragraphy-font: 'Roboto', serif;
-    --nav-backgroud-color: #99ceff;
-    --nav-link-color: #fef6f5;
-    --nav-haver-link-color: #f20602;
-    --nav-haver-background-color: #ffc5c2;
- }
- header {
-    padding: 20px;
-    background-color: #2871b4;
- }
 
- p {
-    padding: 25px;
-    font: #99ceff;
-    
- }
+   --primary-color: #00203d;
+   --secondary-color: #708d81;
+   --accent1-color: #eee5e9;
+   --accent2-color: #bf0603;
 
- hero{
-    display: block ;
-    width: 100px;;
-    height:auto ;
- }
+   --heading-font: 'Madimi One', serif;
+   --paragraphy-font: 'Roboto', serif;
+   --nav-backgroud-color: #99ceff;
+   --nav-link-color: #fef6f5;
+   --nav-haver-link-color: #f20602;
+   --nav-haver-background-color: #ffc5c2;
+}
+header, main, footer {
+   max-width: 1024px;
+   margin: 0 auto;
+}
+header {
+   padding: 20px;
+   background-color: #2871b4;
+}
 
- body
+p {
+   padding: 25px;
+   font: #99ceff;
 
+}
 
-    
+.hero {
+   width: 100px;
+   height: auto;
+}
