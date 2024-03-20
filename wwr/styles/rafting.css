@@ -37,6 +37,5 @@ p {
 }
 
 .hero {
-   width: 100px;
-   height: auto;
+  position: relative;
 }
