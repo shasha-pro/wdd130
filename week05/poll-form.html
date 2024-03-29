@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>WDD 130 | HTML FORM - USER POLL</title>
+    <link ref="stylesheet" href="week05/styles/poll-form.css">
+</head>
+<body style="font-family: Merriweather, Georgia, serif;
+font-size: 1.2em;
+color: #333;
+background: #fff;">
+    <header style=" margin: 0 auto;
+    width: 650px;">
+        <h1 style=" margin: 1rem;
+        font-size: 1.5em;
+        color: navy;
+        text-align: center;"> WDD 130 | PATRICK S. DUNOH | HTML FORM - USER POLL.</h1>
+    </header>
+    <main>
+    <form style="width: 650px; margin: 0 auto; padding: 1rem; border: 1px solid rgba(0, 0, 0, 0, 1);">
+    <fieldset style="display: grid; grid-gap: 5rem; margin: 1rem; border: 1px solid rgba(0,0,0,0,2); border-radius: 0.5rem; background-color: #eee; display: grid;">
+        <legend style="padding: 0.5rem; color: navy; font-size: 1.3em;">CONTACT INFROMATION</legend>
+        <!--form element will go here-->
+        <div class="form-item" style="display: grid; align-items: center;">
+        <label for="Fullname" style="text-align:left; padding-right: 1rem; font-family: Roboto,Arial, sans-serif;">Full Name:</label>
+        <input type="text" id="Fullname" name="Fullname" style="padding: 0.5rem; font-size: 1.1rem; font-family: Roboto, 'Arial', sans-serif;">
+    </div>
+    <div class="form-item column1" style="grid-template-columns: 3fr 1fr; margin: 0.5rem 0;">
+        <label for="useremail" style="text-align:left; padding-right: 1rem; font-family: Roboto, Arial, sans-serif;">Email:</label>
+        <input type="email" id="useremail" name="useremail"  style="padding: 0.5rem; font-size: 1.1rem; font-family: Roboto, Arial, sans-serif;">
+    </div>
+    </fieldset>
+    </form> 
+    <form style="width: 650px; margin: 0 auto; padding: 1rem; border: 1px solid rgba(0, 0, 0, 0, 1);">
+        <fieldset style="display: grid; grid-gap: 5rem; margin: 1rem; border: 1px solid rgba(0,0,0,0,2); border-radius: 0.5rem; background-color: #eee; display: grid;">
+        <legend style="padding: 0.5rem; color: navy; font-size: 1.3em;">QUESTION</legend>
+        <div class="form-item column2" style="grid-template-columns: 3fr 1fr;">
+        <label  style="text-align: left; padding-right: 1rem; font-family: Roboto,'Arial', sans-serif;">what is your favorite internet browser?</label>
+        <select style="padding: 0.5rem; font-size: 1.1rem; font-family: Roboto, Arial, sans-serif;">
+        <option> </option>
+        <option> Chrome</option>
+        <option> Firefox</option>
+        <option>Safari</option>
+        <option> Edge</option>
+        <option>Brave</option>
+        <option> Other</option>
+        </select> 
+        </div>
+        <div class="form-item column2" >
+        <label for="pet" style="text-align: left; padding-right: 1rem; font-family: Roboto, Arial, sans-serif;">Do you have a Household pet?</label>
+        <input type="checkbox" di="pet" name="pet" style="padding: 0.5rem; font-size: 1.1rem; font-family: Roboto, 'Arial', sans-serif; width: 22px; height: 22px; vertical-align: bottom;"> 
+        <label for="feelback" style="text-align: left; padding-right: 1rem; font-family: Roboto, Arial, sans-serif;">List the places you have lived:</label>
+        <textarea id="feelback" name="feelback" row="4" placeholder="Ftill water Floradia, Amstradm Netherlands, Tibuktu Mail" style="font-family: Roboto, Arial, sans-serif; padding: 0.5rem; font-size: 1.1rem;"></textarea>
+    </div>
+    </fieldset>
+     <button type="submit" style="font-family: Roboto, Arial,sans-serif; margin: 1rem; background-color: navy; color: #fff; border: none; border-radius: .5rem; padding: .75rem; font-size: 1.2rem;">Submit Poll</button>
+     <button:hover style="background-color: darkgreen;"></button:hover>
+    </form>
+    </main>
+    <footer style="margin: 1rem auto 0; width: 650px; text-align: center; font-size: 0.8em; color: #777; border-top: 1px solid #ccc; ">
+       <P style="text-align: center;">&COPY2024 | Html Form - User Poll Activity | Patrick s. Dunoh</P>
+    </footer>
+</body>
+</html>
